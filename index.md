@@ -1,17 +1,7 @@
-## Welcome :)
-
+## Analog_Digital 
 
 ### [Info](https://anal0g.digital/info)
 
+### Featured Projects:
 
-
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nawe19/analog_digital/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+[What Did you do](<iframe title="vimeo-player" src="https://player.vimeo.com/video/536147273?h=e4ee2474cc" width="640" height="360" frameborder="0" allowfullscreen></iframe>)
