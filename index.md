@@ -1,7 +1,7 @@
 ## Welcome :)
 
 
-### Info (https://anal0g.digital/info)
+### [Info](https://anal0g.digital/info)
 [Link text Here](https://link-url-here.org)
 
 
