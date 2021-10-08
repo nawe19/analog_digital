@@ -1,4 +1,4 @@
-## Find me 
+## Info
 [Letterboxd](https://letterboxd.com/nawe19/)
 
 [Youtube](https://www.youtube.com/channel/UCAmzRNRrwll1ytoAYrowS5Q)
