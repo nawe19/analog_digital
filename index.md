@@ -1,7 +1,7 @@
 
 ## Welcome 
 
-### Created by Ewan Gordon
+## *Created by Ewan Gordon*
 ### [Find Me](https://anal0g.digital/info)
 
 ### Featured Projects:
