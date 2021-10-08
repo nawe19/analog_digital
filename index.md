@@ -1,4 +1,6 @@
 
+
+<title>Gaming</title>
 ## Welcome 
 
 ## *Created by Ewan Gordon*
