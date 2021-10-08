@@ -1,5 +1,5 @@
 
-### [Info](https://anal0g.digital/info)
+### [Find Me](https://anal0g.digital/info)
 
 ### Featured Projects:
 
