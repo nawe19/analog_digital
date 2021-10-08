@@ -1,4 +1,4 @@
-<title> Gamer Site </title>
+
 ## Welcome 
 
 ## *Created by Ewan Gordon*
