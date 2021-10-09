@@ -10,9 +10,10 @@ table, th, td, tr{
 body{
 		
 		font-family: 'Lucida Console', monospace;
-		margin:30px auto;
+		margin:20px auto;
 		max-width:725px;
 		line-height:1.1;
 		padding: 10px;
     background-color: #808B96;
     color:black;
+   
