@@ -3,6 +3,10 @@ head{
 	font-family: 'Lucida Console', monospace;
 	margin: 10px auto;
 }
+    }
+table, th, td, tr{
+  border: 1px solid black;
+}
 body{
 		
 		font-family: 'Lucida Console', monospace;
