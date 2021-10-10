@@ -1,11 +1,9 @@
-* {
-  box-sizing: border-box;
-  font-family: 'Lucida Console', monospace;
-}
+
 h1{
 	  background-color:  #656565;
-  padding: 30px;
-  text-align: center;
+	  background-size: 100%;
+  padding: 0px;
+  text-align: ;
   font-size: 35px;
 }
 table, th, td, tr{
