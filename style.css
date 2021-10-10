@@ -4,7 +4,7 @@ h1{
 	margin: 10px auto;
 	text-align: center;
 }
-    }
+ 
 table, th, td, tr{
   border: 1px solid black;
 }
@@ -17,4 +17,5 @@ body{
 		padding: 8px;
     background-color: #808B96;
     color:black;
+  }
    
