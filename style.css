@@ -1,12 +1,26 @@
 
 
-h1, h2{
+h1{
+	  font-family: 'Lucida Console', monospace;
+	  letter-spacing: 5px;
 	  background-color:  #656565;
 	  background-size: 100%;
   padding: 0px;
   text-align: ;
   font-size: 35px;
 }
+h2{
+	  font-family: 'Lucida Console', monospace;
+	  letter-spacing: 2px;
+	  background-color:  #656565;
+	  background-size: 200%;
+  padding: 0px;
+  text-align: ;
+  font-size: 35px;
+}
+
+
+
 table, th, td, tr{
   border: 1px solid black;
 }
