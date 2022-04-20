@@ -10,14 +10,57 @@ body {
   margin: 0;
   font-family: 'Lucida console', monospace;
 }
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
 
-/* Style the top navigation bar */
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #04AA6D;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+</body>
+</html>
+
+/* Style the top navigation bar 
 .topnav {
   overflow: hidden;
   background-color: #333;
 }
 
-/* Style the topnav links */
+/* Style the topnav links 
 .topnav a {
   float: left;
   display: block;
@@ -27,7 +70,7 @@ body {
   text-decoration: none;
 }
 
-/* Change color on hover */
+/* Change color on hover 
 .topnav a:hover {
   background-color: #ddd;
   color: black;
