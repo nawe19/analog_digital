@@ -1,16 +1,12 @@
 
 
 
-/*html, body, div, object, iframe, fieldset { 
+html, body, div, object, iframe, fieldset { 
 margin: 0; 
 padding: 0; 
 border: 0;
 }
-*/
 
-iframe {
-  max-width: 100%;
-  height: auto;
 }
 h1{
 	  font-family: 'Lucida Console', monospace;
@@ -20,9 +16,6 @@ h1{
   text-align: ;
   font-size: 35px;
 }
-
-
-
 
 img {
   max-width: 100%;
