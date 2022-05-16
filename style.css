@@ -1,5 +1,12 @@
 
 
+
+/*html, body, div, object, iframe, fieldset { 
+margin: 0; 
+padding: 0; 
+border: 0;
+}
+*/
 h1{
 	  font-family: 'Lucida Console', monospace;
 	  letter-spacing: 3px;
@@ -8,6 +15,12 @@ h1{
   text-align: ;
   font-size: 35px;
 }
+
+iframe {
+  max-width: 100%;
+  height: auto;
+}
+
 
 img {
   max-width: 100%;
