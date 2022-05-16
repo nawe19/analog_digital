@@ -7,7 +7,12 @@ padding: 0;
 border: 0;
 }
 */
+ul {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 }
+
 h1{
 	  font-family: 'Lucida Console', monospace;
 	  letter-spacing: 3px;
