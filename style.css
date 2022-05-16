@@ -10,7 +10,7 @@ border: 0;
 ul {
   position: -webkit-sticky; /* Safari */
   position: sticky;
-  top: 0;
+  top: 0;v
 }
 
 h1{
@@ -39,7 +39,7 @@ body{
 		text-align: center;
 		line-height:1.1;
 		
-    background-color: #ffd9a8;
+    background-color:  #1c1b21;
     color:black;
   }
 
