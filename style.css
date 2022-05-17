@@ -88,10 +88,6 @@ body{
     color:#f0f0f0;
   }
 
-* {
-  box-sizing: border-box;
-}
-
 img {
   vertical-align: middle;
 }
@@ -178,4 +174,4 @@ img {
 .demo:hover {
   opacity: 1;
 }
-</style>
+
