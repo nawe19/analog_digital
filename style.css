@@ -7,6 +7,11 @@ body {
   margin: 0;
   font-family: 'Lucida console', monospace;
 
+  text-align: center;
+    line-height:1.1;
+    
+    background-color:  #1c1b21;
+    color:#f0f0f0;
 }
 
 ul {
