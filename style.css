@@ -6,7 +6,9 @@
 body {
   margin: 0;
   font-family: 'Lucida console', monospace;
+
 }
+
 ul {
     border-radius:10px;
  border:5px solid #e7e7e7;
@@ -66,27 +68,6 @@ h1{
   text-align: ;
   font-size: 35px;
 }
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-
-
-
-table, th, td, tr{
-  border: 1px solid black;
-}
-body{
-		
-	font-family: 'Lucida Console', monospace;
-		text-align: center;
-		line-height:1.1;
-		
-    background-color:  #1c1b21;
-    color:#f0f0f0;
-  }
 
 img {
   vertical-align: middle;
