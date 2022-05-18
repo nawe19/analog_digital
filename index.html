@@ -16,97 +16,65 @@
   <li><a href="About.html">About</a></li>
   </li>
 </ul>
-    <h3> Featured</h3>
+    <h3>Featured:</h3>
      <h4> Goodnight Travis (2022) <h4>
           <iframe width="60%" height="509" src="https://www.youtube.com/embed/r5Qb0MIPZP0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
           encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<br>
+<br>
+<br>
+<h3>  Gallery </h3>
 
-<h2 style="text-align:center">Slideshow Gallery</h2>
+<div class="slideshow-container">
 
-<div class="container">
-  <div class="mySlides">
-    <div class="numbertext">1 / 9</div>
-    <img src="images/GNT_Title.jpg" style="width:100%">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">2 / 9</div>
-    <img src="images/Brando_Behind.jpg" style="width:100%">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">3 / 9</div>
-    <img src="images/Brando_Gun.jpg" style="width:100%">
-  </div>
-
-   <div class="mySlides">
-    <div class="numbertext">4 / 9</div>
-    <img src="images/Nice_Painting.jpg" style="width:100%">
-  </div>
-    
-  <div class="mySlides">
-    <div class="numbertext">5 / 9</div>
-    <img src="images/Brando_Think.jpg" style="width:100%">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">6 / 9</div>
-    <img src="images/Brando_Drink.jpg" style="width:100%">
-  </div>
-    
-  <div class="mySlides">
-    <div class="numbertext">7 / 9</div>
-    <img src="images/Brando_Walk.jpg" style="width:100%">
-  </div>
-   <div class="mySlides">
-    <div class="numbertext">8 / 9</div>
-    <img src="images/Brando_Dialing.jpg" style="width:100%">
-  </div>
-    
-     <div class="mySlides">
-    <div class="numbertext">9 / 9</div>
-    <img src="images/Don_Antonio" style="width:100%">
-  </div>
-
-  <a class="prev" onclick="plusSlides(-1)">❮</a>
-  <a class="next" onclick="plusSlides(1)">❯</a>
-
-  <div class="caption-container">
-    <p id="caption"></p>
-  </div>
-
-  <div class="row">
-    <div class="column">
-      <img class="demo cursor" src="images/GNT_Title.jpg" style="width:100%" onclick="currentSlide(1)" alt="Goodnight Travis Title Card">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="images/Brando_Behind.jpg" style="width:100%" onclick="currentSlide(2)" alt="'Hey There'">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="images/Brando_Gun.jpg" style="width:100%" onclick="currentSlide(3)" alt="'You owe a lot of money Kid">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="images/Nice_Painting.jpg" style="width:100%" onclick="currentSlide(5)" alt="'Isn't that a nice painting'">
-    </div>    
-    <div class="column">
-      <img class="demo cursor" src="images/Brando_Think.jpg" style="width:100%" onclick="currentSlide(4)" alt="Admiring His work">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="images/Brando_Drink.jpg" style="width:100%" onclick="currentSlide(5)" alt="One last sip!">
-    </div>    
-    <div class="column">
-      <img class="demo cursor" src="images/Brando_Walk.jpg" style="width:100%" onclick="currentSlide(7)" alt="Walking to the car">
-    </div>
-      <div class="column">
-      <img class="demo cursor" src="images/Brando_Dialing.jpg" style="width:100%" onclick="currentSlide(8)" alt="Dialing His Boss">
-        <div class="column">
-      <img class="demo cursor" src="images/Don_Antonio.jpg" style="width:100%" onclick="currentSlide(9)" alt="'Don Antonio? Its Done'">
-    </div>
-    </div>
-  </div>
+<div class="mySlides fade">
+  <div class="numbertext">1 / 8</div>
+  <img src="images/GNT_Title.jpg" style="width:100%">
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">2 / 8</div>
+  <img src="images/Brando_Behind.jpg" style="width:100%">
+  <div class="text">"Hey There"</div>
 </div>
 
+<div class="mySlides fade">
+  <div class="numbertext">3 / 8</div>
+  <img src="images/Brando_Gun.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 8</div>
+  <img src="images/Nice_Painting.jpg" style="width:100%">
+  <div class="text">"Isn't that a nice painting?"</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 8</div>
+  <img src="images/Brando_Think.jpg" style="width:100%">
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">6 / 8</div>
+  <img src="images/Brando_Drink.jpg" style="width:100%">
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">7 / 8</div>
+  <img src="images/Brando_Walk.jpg" style="width:100%">
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">8 / 8</div>
+  <img src="images/Don_Antonio.jpg" style="width:100%">
+  <div class="text">"It's Done"</div>
+</div>
+
+
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
 <script>
 let slideIndex = 1;
 showSlides(slideIndex);
@@ -122,19 +90,17 @@ function currentSlide(n) {
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("demo");
-  let captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+    slides[i].style.display = "none";  
   }
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";
+  slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
 }
 </script>
                                              
