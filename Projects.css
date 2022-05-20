@@ -1,4 +1,17 @@
 
+h1{
+  font-size: 1.9vw;
+}
+h2{
+  font-size:  1.5vw;
+}
+
+h3{
+  font-size:  1.3vw;
+}
+h4{
+  font-size:  0.9vw;
+}
 *{
    
   font-family: 'Lucida console', monospace;
@@ -60,6 +73,7 @@ ul.topnav li.right {float: right;}
 }
 
 ul {
+  font-size: 1vw;
   list-style-type: none;
   margin: 0;
   padding: 0;
