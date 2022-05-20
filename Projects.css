@@ -1,0 +1,124 @@
+
+*{
+   
+  font-family: 'Lucida console', monospace;
+    color:#f0f0f0;
+    /*box-sizing: border-box;*/
+    margin: 0;
+    /*display: inline-block;*/
+}
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
+  z-index:1;
+  background:#1c1b21;
+}
+
+
+body {
+  margin: 0;
+
+  font-family: 'Lucida console', monospace;
+
+  text-align: center;
+    /*line-height:1.1;*/
+    
+    background-color:  #1c1b21;
+    color:#f0f0f0;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #04AA6D;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f3f3f3;
+   position: -webkit-sticky; /* Safari */
+  position: sticky;
+top:  0;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+.short {
+   margin: 0;
+display: inline-block;
+position: relative;
+   overflow: hidden;
+  width: 100%; 
+}
+
+
+
+    .video {
+  aspect-ratio: 21 / 9;
+  width: 60%;
+  top: 100px;
+}
+
+}
+/*.container {
+  margin: 0;
+display: inline-block;
+position: relative;
+   overflow: hidden;
+  width: 100%; 
+  padding-top: 42.85%; /*(divide 9 by 16 = 0.5625) 
+}*/
+
+/* Then style the iframe to fit in the container div with full height and width 
+.responsive-iframe {
+  margin: 0;
+   display: inline-block;
+  position: relative;
+  top: 20%;
+  left: 20%;
+  bottom: 0px;
+  right: 0;
+  width: 60%;
+  height: 60%;
+  border: none;
+  z-index:0;*/
