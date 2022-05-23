@@ -1,14 +1,14 @@
 
 * {
   box-sizing: border-box;
-  font-family: 'Lucida console', monospace;
+ font-family: 'Blinker', sans-serif;
 }
 body {
   background-image: url("images/Background/AU_FG_Texture-1.jpg"), url("images/Background/AU_FG_Texture-6.jpg");
   background-position: center top, center bottom;
   background-repeat: no-repeat,no-repeat;
   margin: 0;
-  font-family: 'Lucida console', monospace;
+ 
   text-align: center;
     line-height:1.1;
     background-color:  #1c1b21;
