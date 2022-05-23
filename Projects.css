@@ -17,6 +17,10 @@ h4{
    
 }
 body {
+  background-image: url("images/Background/AU_FG_Texture-2.jpg"), url("images/Background/AU_FG_Texture-4.jpg"), url("images/Background/AU_FG_Texture-5.jpg");
+  background-position: center top, center center, center bottom;
+  background-repeat: no-repeat,no-repeat, no-repeat;
+
    margin: 0;
   font-family: 'Lucida console', monospace;
 
