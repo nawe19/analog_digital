@@ -13,7 +13,7 @@ h4{
   font-size:  0.9vw;
 }*/
 *{
-  font-family: 'Lucida console', monospace;
+font-family: 'Blinker', sans-serif;
    
 }
 body {
@@ -22,7 +22,7 @@ body {
   background-repeat: no-repeat,no-repeat, no-repeat;
 
    margin: 0;
-  font-family: 'Lucida console', monospace;
+
 
   text-align: center;
     line-height:1.1;
