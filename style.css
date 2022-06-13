@@ -4,9 +4,10 @@
 font-family: 'Source Sans Pro', sans-serif;
 }
 body {
-  background-image: url("images/Background/AU_FG_Texture-1.jpg"), url("images/Background/AU_FG_Texture-6.jpg");
-  background-position: center top, center bottom;
-  background-repeat: no-repeat,no-repeat;
+  background-image: url("images/Background/AU_FG_Texture-1.jpg");
+  background-position: center top
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
   margin: 0;
  
   text-align: center;
@@ -48,7 +49,6 @@ li a:hover {
 
 
 h1{
-	  font-family: 'Lucida Console', monospace;
 	  letter-spacing: 3px;
   font-size: 35px;
 }
@@ -58,7 +58,7 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 90%;
   position: relative;
   margin: auto;
 }
