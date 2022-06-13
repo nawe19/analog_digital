@@ -1,17 +1,4 @@
-/*
-h1{
-  font-size: 1.9vw;
-}
-h2{
-  font-size:  1.5vw;
-}
 
-h3{
-  font-size:  1.3vw;
-}
-h4{
-  font-size:  0.9vw;
-}*/
 *{
 font-family: 'Source Sans Pro', sans-serif;
    
@@ -56,47 +43,6 @@ li a:hover {
   background-color: #ddd;
 }
 }
-/*ul.topnav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-ul.topnav li {float: left;}
-
-ul.topnav li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-ul.topnav li a:hover:not(.active) {background-color: #111;}
-
-ul.topnav li a.active {background-color: #04AA6D;}
-
-ul.topnav li.right {float: right;}
-
-@media screen and (max-width: 600px) {
-  ul.topnav li.right, 
-  ul.topnav li {float: none;}
-}
-
-ul {
-  font-size: 1vw;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #f3f3f3;
-   position: -webkit-sticky; /* Safari */
-  position: sticky;
-top:  0;
-
-}
 
 li {
   float: left;
@@ -123,30 +69,8 @@ position: relative;
 
     .video {
   aspect-ratio: 21 / 9;
-  width: 60%;
+  width: 90%;
   top: 100px;
 }
 
 }
-/*.container {
-  margin: 0;
-display: inline-block;
-position: relative;
-   overflow: hidden;
-  width: 100%; 
-  padding-top: 42.85%; /*(divide 9 by 16 = 0.5625) 
-}*/
-
-/* Then style the iframe to fit in the container div with full height and width 
-.responsive-iframe {
-  margin: 0;
-   display: inline-block;
-  position: relative;
-  top: 20%;
-  left: 20%;
-  bottom: 0px;
-  right: 0;
-  width: 60%;
-  height: 60%;
-  border: none;
-  z-index:0;*/

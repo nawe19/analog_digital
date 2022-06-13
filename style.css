@@ -133,3 +133,9 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
+    .video {
+  aspect-ratio: 21 / 9;
+  width: 90%;
+  top: 100px;
+}
