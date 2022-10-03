@@ -6,7 +6,7 @@ font-family: 'Source Sans Pro', sans-serif;
 body {
   background-image: url("images/Background/AU_FG_Texture-1.jpg");
   background-position: center top;
-  background-repeat: repeat-x;
+  background-repeat: repeat-x, repeat-y;
   margin: 0;
  
   text-align: center;
