@@ -6,7 +6,8 @@ font-family: 'Source Sans Pro', sans-serif;
 body {
   background-image: url("images/Background/AU_FG_Texture-1.jpg");
   background-position: center top;
-  background-repeat: repeat-x, repeat-y;
+  background-repeat:  repeat-y;
+  background-repeat: repeat-x;
   margin: 0;
  
   text-align: center;
@@ -44,9 +45,6 @@ li a {
 li a:hover {  
   background-color: #ddd;
 }
-
-
-
 h1{
 	  letter-spacing: 3px;
   font-size: 35px;

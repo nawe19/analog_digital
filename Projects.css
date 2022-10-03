@@ -6,11 +6,10 @@ font-family: 'Source Sans Pro', sans-serif;
 body {
   background-image: url("images/Background/AU_FG_Texture-1.jpg"); /*url("images/Background/AU_FG_Texture-4.jpg"), url("images/Background/AU_FG_Texture-5.jpg");*/
   background-position: center top; /*center center, center bottom;*/
-  background-repeat: repeat-x;/*no-repeat, no-repeat;*/
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
 
    margin: 0;
-
-
   text-align: center;
     line-height:1.1;
     
