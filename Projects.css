@@ -27,45 +27,68 @@ h1{
     font-weight: 300px;
     font-size: 35px;
   }
-ul {
+  ul.topnav {
+   position: fixed;
+   width: 100%;
+  top: 0;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #f3f3f3;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-li {
-  float: left;
 }
 
-li a {
-  display: block;
-  color: #666
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-li a:hover {  
-  background-color: #ddd;
-}
-}
+ul.topnav li {float: left;}
 
-li {
-  float: left;
-}
-
-li a {
-  display: block;
+ul.topnav li a {
+  display: inline-block;
   color: #666;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-*/
-
+  transition: 0.3s;
+  font-size: 17px;
 }
+
+ul.topnav li a:hover {background-color: #111;}
+
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:800px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:800px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+  @media screen  and (max-width: 800px) {
+  h1{
+  letter-spacing: 0px;
+  font-size: 40px;
+
+  }
+    h2{
+    font-weight: 300px;
+    font-size: 25px;
+  }
+  }
 
 .card {
   background-color: #181818;
@@ -78,6 +101,20 @@ li a {
   padding-bottom: 100px;
   color: #FFFF;
     }
+
+@media screen  and (max-width: 800px) {
+  .card {
+  background-color: #181818;
+  border-radius: 30px;
+  max-width: 100%;
+  margin: 5% auto;
+  height: 100%;
+  position: sitcky;
+  padding-top: 10px;
+  padding-bottom: 100px;
+  color: #FFFF;
+    }
+
 
 .short {
    margin: 0;

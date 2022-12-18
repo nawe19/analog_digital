@@ -2,21 +2,26 @@
 <html lang="en">
 <html>
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-  <link rel="stylesheet" href="Projects.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="fav" type="image/x-icon" href="/images/favicon.ico">
+ <link rel="stylesheet" href="Projects.css">
         <title> Projects</title>
   <header>
     <nav>
-    <ul>
+    <ul class = "topnav">
       <li><a href="index.html">Home</a></li>
   <li><a href="Projects.html">Completed Projects</a></li>
   <li><a href="https://www.behance.net/ewangordon" target= "blank">Behance</a></li>
    <li><a href="https://ewanjg.carrd.co/" target= "blank">About</a></li>
   </li>
+  <li class = "icon">
+   <a href="javascript:void(0);" style = "font-size: 15px;" onclick="myFunction()">☰</a></li>
 </ul>
 </nav>
 </header>
@@ -92,6 +97,10 @@
   frameborder="0"
   allow="accelerometer; autoplay; encrypted-media; gyroscope;"
   allowfullscreen></iframe>  
-  </div>          
+  </div>   
+  <script> function myFunction() {
+    document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+}
+</script>       
 </body>
 </html>
